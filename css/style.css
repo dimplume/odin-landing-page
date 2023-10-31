@@ -7,6 +7,19 @@ body {
     font-family: Roboto-Regular, Arial;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+
 h2,
 .quote {
     font-size: 36px;
@@ -17,6 +30,7 @@ h2,
     font-size: 24px;
 }
 
+button,
 .logo,
 .awesome-website {
     color: #F9FAF8;
