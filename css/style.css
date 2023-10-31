@@ -50,3 +50,16 @@ button,
 .awesome-website {
     font-size: 48px;
 }
+
+.header,
+.footer { 
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.cta {
+    background-color: #3882F6;
+}
