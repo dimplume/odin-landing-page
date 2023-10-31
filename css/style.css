@@ -6,3 +6,33 @@
 body {
     font-family: Roboto-Regular, Arial;
 }
+
+h2,
+.quote {
+    font-size: 36px;
+    color:  #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo,
+.awesome-website {
+    color: #F9FAF8;
+}
+
+.links,
+.smaller-font {
+    font-size: 18px;
+}
+
+.links,
+.smaller-font,
+.footer-text { 
+    color: #E5E7EB;
+}
+
+.awesome-website {
+    font-size: 48px;
+}
