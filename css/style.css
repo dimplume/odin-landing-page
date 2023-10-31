@@ -52,6 +52,8 @@ button,
 }
 
 .nowrap {
+    /* TODO: make list items not wrap but instead, get smaller when the website shrinks */
+
     border: 2px solid firebrick;
 }
 
@@ -114,13 +116,13 @@ button,
 }
 
 .box-row {
-    /* TODO: add gap */
-    /* TODO: add border radius */
+    gap: 16px;
     justify-content: space-around;
 }
 
 .box {
-    border: 2px solid #3882F6;
+    border-radius: 13px;
+    border: 3px solid #3882F6;
     width: 100px;
     height: 100px;
 }
