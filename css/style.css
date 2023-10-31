@@ -10,6 +10,7 @@ body {
 }
 
 ul {
+    min-width: max-content;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -32,6 +33,7 @@ h2,
 
 .logo {
     font-size: 24px;
+    min-width: max-content;
 }
 
 button,
@@ -51,18 +53,12 @@ button,
     color: #E5E7EB;
 }
 
-.nowrap {
-    /* TODO: make list items not wrap but instead, get smaller when the website shrinks */
-
-    border: 2px solid firebrick;
-}
-
 .awesome-website {
     font-size: 48px;
 }
 
 .header {
-    padding: 16px 200px 72px 200px;
+    padding: 16px 150px 72px 150px;
     flex-direction: column;
     gap: 72px;
 }
@@ -81,7 +77,6 @@ button,
 }
 
 .initial {
-    flex-grow: 1;
     gap: 26px;
 }
 
@@ -113,7 +108,7 @@ button,
 .body {
     flex-direction: column;
     align-items: center;
-    
+    margin-bottom: 50px;
 }
 
 .box-row {
@@ -138,6 +133,7 @@ button,
 }
 
 .quote {
+    padding: 5%;
     background-color: #E5E7EB;
 }
 
