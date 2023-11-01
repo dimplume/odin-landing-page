@@ -9,7 +9,7 @@ body {
     font-family: Roboto-Regular, Arial;
 }
 
-ul {
+nav {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -68,31 +68,31 @@ button,
     font-size: 48px;
 }
 
-.header {
+.container {
+    display: flex;
+}
+
+.header-hero {
     flex-direction: column;
     gap: 72px;
 }
 
-.header,
+.header-hero,
 .footer { 
     background-color: #1F2937;
 }
 
-.header > div {
+.header {
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .signup-container > div {
     max-width: 479px;
 }
 
-.initial {
-    gap: 26px;
-    flex-wrap: wrap;
-}
 
-.final {
-    display: flex;
+.hero {
     flex-wrap: wrap;
     gap: 16px;
 }
@@ -105,13 +105,13 @@ button,
     flex: 1;
 }
 
-.img {
-    text-align: center;
-    background-color: slategrey;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parent-img {
+    width: 500px;
 }
 
 .body {
@@ -152,7 +152,4 @@ button,
     background-color: #3882F6;
 }
 
-.container,
-.header > .subheader {
-    display: flex;
-}
+
